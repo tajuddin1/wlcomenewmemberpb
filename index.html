@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome new member!</title>
+<style>
+    
+    *{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+
+    body{
+        background-color: #f5f6f8;
+        font-family: Arial;
+    }
+
+    .main {
+        min-height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .main-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: auto;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .inner-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+    }
+
+    .top-icon {
+        width: 120px;
+    }
+
+    .top-icon img {
+        width: 100%;
+    }
+
+    .big_title h1 {
+        font-size: 38px;
+        margin-bottom: 15px;
+    }
+
+    .text_small p {
+        font-size: 22px;
+        color: #707070;
+    }
+
+    .text_small span {
+        font-size: 22px;
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+        color: #707070;
+    }
+
+    .call-to-btn .btn_orange {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        text-decoration: none;
+        background: #ed680f;
+        border-radius: 2px;
+        -webkit-box-shadow: 0px 0px 0px 1px #a6a6a6a8;
+                box-shadow: 0px 0px 0px 1px #a6a6a6a8;
+        color: #fff;
+    }
+
+    .call-to-btn {
+        padding-top: 10px;
+    }
+
+    footer{
+        background-color: #ddd;
+    }
+
+    .footer {
+        max-width: 1120px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px 10px;
+        color: #707070;
+    }
+
+    @media screen and (max-width: 768px) {
+        .main-content {
+            margin: auto 20px;
+        }
+        .top-icon {
+        width: 100px;
+        }
+
+        .big_title h1 {
+            font-size: 34px;
+            margin-bottom: 5px;
+        }
+
+        .text_small p {
+            font-size: 18px;
+        }
+
+        .text_small span {
+            max-width: 580px !important;
+            font-size: 18px;
+            margin: 15px 0;
+        }
+        .text_small span br{
+            display: none;
+        }
+        .call-to-btn .btn_orange {
+            display: inline-block;
+            padding: 10px 15px;
+            font-size: 22px;
+        }
+    }
+
+    @media screen and (max-width: 590px) {
+
+        .text_small span {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .top-icon {
+            width: 80px;
+        }
+
+        .big_title h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .text_small p {
+            font-size: 16px;
+            
+        }
+        .call-to-btn .btn_orange {
+            display: inline-block;
+            padding: 10px 15px;
+            font-size: 20px;
+        }
+
+        .footer span{
+            font-size: 14px;
+            display: block;
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 430px) {
+        .top-icon {
+            width: 80px;
+        }
+
+        .big_title h1 {
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+
+        .text_small p {
+            font-size: 16px;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="main">
+    <div class="main-content">
+        <div class="inner-wrapper">
+            <div class="top-icon">
+                <img src="https://joinmembersdirect.com/stripe/checkmarksheld.svg" alt="">
+            </div>
+            <div class="big_title">
+                <h1>Thank You For Signing Up!</h1>
+            </div>
+            <div class="text_small">
+                <p>All the goodies we promised you are on their way to your inbox now …</p>
+
+                <span style="display: inline-block; width:100%; max-width: 710px;">While waiting on your new member welcome email and 5 STAR Vacation redemption code, checkout your incredible members only savings for everything home. And never pay retail again!</span>
+
+            </div>
+            <div class="call-to-btn">
+                <a href="https://membersdirect.com/?customer_email=&customer_password=&form_type=customer_login" class="btn_orange">Check it Out Now!</a>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <div class="footer">
+            <span>Copyright 2024 <a href="#" style="text-decoration: none; color: #707070;">membersdirect.com</a> - All Rights Reserved </span>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
